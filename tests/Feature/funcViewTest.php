@@ -17,7 +17,7 @@ class funcViewTest extends TestCase
     public function test_show_product(): void
     {
         $product = Product::create([
-            'code' => 'H001',
+            'code' => 'H0012',
             'name' => 'Kaveh',
             'quantity' => 1,
             'price' => 99.99,
